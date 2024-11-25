@@ -8,6 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         FileHandler handler = new FileHandler();
+        handler.createFolder(BASE_PATH);
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter file name: ");
         String fileName = scanner.nextLine();
